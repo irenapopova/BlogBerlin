@@ -1,0 +1,56 @@
+/*****
+HEADER
+*****/
+
+header {
+    background-image: url("Img/buildings/tower3.jpg");
+    /*The background image covers the 100% of the viewport" */
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    /*The title is centered in the header*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+header h1 {
+    line-height: 10vh;
+    text-align: center;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.6);
+    background-color: rgba(52, 58, 64, 0.5); /* using --gray-dark with opacity */
+}
+
+.btn-secondary {
+    margin-top : 20px;
+    padding: 15px;
+    font-size: 1.3rem;
+}
+
+/*****
+ CARD
+*****/
+.card-img-top {
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.6);
+}
+
+.card > a {
+    text-decoration: none;  /* remove underline when hover on the link */
+    color: black;
+}
+
+.card > a:hover{
+    color: var(--primary);
+}
+
+.row_header {
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+}
+
+.card-title {
+    font-family: 'Courier New', Courier, monospace;
+}

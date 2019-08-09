@@ -1,0 +1,49 @@
+/*****
+HEADER
+*****/
+
+header {
+    background-image: url("Img/buildings/light.jpg");
+    /*The background image covers the 50% of the viewport" */
+    height: 80%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    /*The title is centered in the header*/
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+header h1 {
+    line-height: 10vh;
+    text-align: center;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.6);
+    background-color: rgba(240, 240, 240, 0.5); /* using --light with opacity */
+}
+
+
+/*****
+MAP and FORM
+*****/
+
+.map-container-section {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-container-section iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+p, input, textarea {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
